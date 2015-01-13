@@ -1,0 +1,58 @@
+# CURL request 1
+
+jabrand@ui07:~/exercises>curl http://simplebits.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SimpleBits </title>
+
+<meta charset="utf-8" />
+<meta name="description" content="Handcrafted pixels and text by Dan Cederholm." />
+<meta name="author" content="Dan Cederholm" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta name="google-site-verification" content="X5MaeCMvnUjSSNC8nT1nNnvUeJCRJW9_ZDrSjUSN6Ro" />
+
+<link rel="stylesheet" media="screen, projection" href="http://simplebits.com/-/css/screen.css" />
+<link rel="stylesheet" href="http://cloud.typography.com/712324/713040/css/fonts.css" type="text/css" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/wp/xmlrpc.php?rsd" />
+
+<!-- enable HTML5 elements in IE7+8 -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/js/scripts.js"></script>
+<script type="text/javascript" src="/mint/?js"></script>
+</head>
+
+<body class="home blog">
+
+#...
+#...
+#...
+
+#It keeps on going.
+
+#CURL request 2
+
+jabrand@ui07:~/exercises>curl www.google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.ca/?gfe_rd=cr&amp;ei=aE21VKzJItXS-AONnoDABw">here</A>.
+</BODY></HTML>
+
+# CURL request 3
+
+jabrand@ui07:~/exercises>curl --request DELETE 'http://www.somedomain.com/'
+<html>
+<head><title>405 Not Allowed</title></head>
+<body bgcolor="white">
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.7.6</center>
+</body>
+</html>
